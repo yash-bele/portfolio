@@ -8,7 +8,7 @@
 
 body {
     overflow: overlay;
-    background: url(./hexagon.png) no-repeat 21% 11.5% / 45em, url(./astronaut.png) no-repeat 93% top / 17em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: url(./hexagon.png) no-repeat 21% 8.4% / 45em, url(./astronaut.png) no-repeat 93% top / 17em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 /* === CUSTOM SCROLLBAR === */
@@ -102,8 +102,7 @@ nav h1,
 /* === CARDS === */
 
 .cards {
-    margin: 7%;
-    margin-top: 15em;
+    margin: 15em 4%;
     padding-bottom: 7em;
     display: grid;
     row-gap: 14%;
@@ -180,5 +179,10 @@ nav h1,
 
 .cards div:nth-child(9) {
     background: url(./assets/9.png);
+    background-size: cover;
+}
+
+.cards div:nth-child(10) {
+    background: url(./assets/11.png);
     background-size: cover;
 }
