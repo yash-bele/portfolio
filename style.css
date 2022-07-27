@@ -48,8 +48,8 @@ nav h1 {
 nav .menu {
     background-image: linear-gradient(to right, #ff0033, #002aff);
     padding: 5px 5px;
-    padding-bottom: 5.7px;
-    border-radius: 50px;
+    padding-bottom: 6px;
+    border-radius: 100px;
     font-size: small;
     margin-left: 21em;
     border: 2px solid whitesmoke;
