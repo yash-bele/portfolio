@@ -1,31 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
 
-/* === CUSTOM SCROLLBAR === */
-
-*::-webkit-scrollbar {
-    width: 7px;
-}
-
-*::-webkit-scrollbar-track {
-    background-color: #24243e;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: #002aff;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-    background-color: #ff0033;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: url(./hexagon.png) no-repeat 21% 8.4% / 45em, url(./astronaut.png) no-repeat 95% top / 17em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: url(./hexagon.png) no-repeat 21% 8.4% / 45em, url(./astronaut.png) no-repeat 95% top / 15em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 /* === NAVBAR === */
@@ -49,7 +31,7 @@ nav .menu {
     padding-bottom: 6px;
     border-radius: 100px;
     font-size: small;
-    margin-left: 21em;
+    margin-left: 20em;
     border: 3px solid whitesmoke;
 }
 
