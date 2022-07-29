@@ -184,3 +184,8 @@ nav h1,
     background-image: url(./assets/11.png);
     background-size: cover;
 }
+
+.cards div:nth-child(11) {
+    background-image: url(./assets/13.png);
+    background-size: cover;
+}
