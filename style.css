@@ -12,7 +12,7 @@ body {
 
 /* === CUSTOM SCROLLBAR === */
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     width: 7px;
 }
 
@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
     background-color: #ff0033;
-}
+} */
 
 /* === NAVBAR === */
 
