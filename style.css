@@ -7,6 +7,7 @@
 }
 
 body {
+    overflow: overlay;
     background: url(./hexagon.png) no-repeat 21% 8.4% / 45em, url(./astronaut.png) no-repeat 95% top / 16em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
@@ -170,4 +171,18 @@ nav h1,
 .cards div:nth-child(11) {
     background-image: url(./assets/13.png);
     background-size: cover;
+}
+
+/* === CUSTOM SCROLLBAR === */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #002aff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0033;
 }
