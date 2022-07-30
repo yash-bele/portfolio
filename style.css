@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(./hexagon.png) no-repeat 21% 8.4% / 45em, url(./astronaut.png) no-repeat 95% top / 16em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: url(./hexagon.png) no-repeat 21% 6.3% / 45em, url(./astronaut.png) no-repeat 95% top / 16em, linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 /* === NAVBAR === */
@@ -82,7 +82,7 @@ nav h1,
 
 .cards {
     margin-top: 16em;
-    margin-bottom: 15em;
+    margin-bottom: 27.5em;
     padding-bottom: 7em;
     display: grid;
     row-gap: 14%;
@@ -163,11 +163,31 @@ nav h1,
 }
 
 .cards div:nth-child(10) {
-    background-image: url(./assets/11.png);
+    background-image: url(./assets/10.png);
     background-size: cover;
 }
 
 .cards div:nth-child(11) {
+    background-image: url(./assets/11.png);
+    background-size: cover;
+}
+
+.cards div:nth-child(12) {
+    background-image: url(./assets/12.png);
+    background-size: cover;
+}
+
+.cards div:nth-child(13) {
     background-image: url(./assets/13.png);
+    background-size: cover;
+}
+
+.cards div:nth-child(14) {
+    background-image: url(./assets/14.png);
+    background-size: cover;
+}
+
+.cards div:nth-child(15) {
+    background-image: url(./assets/15.png);
     background-size: cover;
 }
