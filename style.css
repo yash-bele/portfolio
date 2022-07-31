@@ -55,27 +55,14 @@ nav .menu a {
     font-size: 5em;
 }
 
-/* === TEXT ANIMATION === */
+/* === TEXT GRADIENT === */
 
 nav h1,
 .greet span {
-    background-image: linear-gradient(to right, #00ff99, #00ffff);
+    background-image: linear-gradient(to bottom, #00ffaa, #00eeff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-size: 1000%;
-    background-position: -100%;
-    animation: text 1s infinite alternate-reverse;
-}
-
-@keyframes text {
-    from {
-        background-position: 0%;
-    }
-
-    to {
-        background-position: 100%;
-    }
 }
 
 /* === CARDS === */
